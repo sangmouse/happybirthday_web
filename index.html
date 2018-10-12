@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="img/hearts.jpg"/>
+  <title>Happy birthday to you <3</title>
+</head>
+<body>
+  
+  <div id="wrapper">
+
+   <h1>LOVE DAYS</h1>
+
+   <div id="clock-box">
+     <div id="clock">
+       <date>DAYS</date>
+       <time>00:00:00</time>
+     </div>
+   </div>
+
+   <div id="info">
+    <div class="one">
+      <img src="img/sang.jpg" class="avt">
+      <p>Nguyễn Văn Sang</p>
+    </div>
+    <div id="heart">
+      ❤<anni>...</anni>
+    </div>
+    <div class="two">
+      <img src="img/duyen.jpg" class="avt">
+      <p>Cô ấy</p>
+    </div>
+  </div>
+
+  <div id="music">
+    <audio loop autoplay controls src="music/motnha.mp3">Your browser does not support the audio element.</audio>
+  </div>
+  <footer>💕 HAPPY BIRTHDAY TO YOU 💕</footer>
+  <video id="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
+                    <!-- <source src="video1.webm" type="video/webm" />
+                    <source src="video1.ogv" type="video/ogg ogv" ; codecs="theora, vorbis" /> -->
+                    <source src="video/video1.mp4" type="video/mp4" />
+                </video>
+</div> 
+<script src="phaohoa.js"></script>
+<script src="video.js"></script>
+<script type="text/javascript">
+  var bgBegin = back;
+  var bgEnd = 31;
+  var bgTetId = 31;
+  var bgTetUrl = '/img/';
+  document.body.style.backgroundImage = 'url(' + bgTetUrl + bgTetId + '.jpg)';
+  document.body.style.backgroundAttachment = 'fixed';
+  document.body.style.backgroundSize = 'cover';
+  setInterval(function(){
+   if (bgTetId == bgEnd) bgTetId = bgBegin;
+   document.body.style.backgroundImage = 'url(' + bgTetUrl + bgTetId + '.jpg)';
+   document.body.style.backgroundAttachment = 'fixed';
+   document.body.style.backgroundSize = 'cover';
+   bgTetId++;
+ }, 15000);
+</script>
+<script src="app.js"></script>
+
+<!-- <div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_quangjv99&amp;utm_content=footer_img"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"  alt="www.000webhost.com"></a></div></body>
+</html> -->
